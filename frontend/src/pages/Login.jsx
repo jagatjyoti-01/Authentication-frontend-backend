@@ -35,7 +35,8 @@ function Login() {
       console.log("Error in hendelLogin", err);
     }
 }
-   // getUserData();
+    getUserData();
+    console.log("getUserData is", getUserData()); 
 
 
   return (
