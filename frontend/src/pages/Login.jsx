@@ -28,15 +28,15 @@ function Login() {
         if(responsce.data.success){
             alert("Login successfull");
             console.log("Login successfull");
-            localStorage.setItem("token",responsce.data.data)
+            //localStorage.setItem("token",responsce.data.data)
         }
 
     }catch(err){
       console.log("Error in hendelLogin", err);
     }
 }
-    getUserData();
-    console.log("getUserData is", getUserData()); 
+    // getUserData();
+    // console.log("getUserData is", getUserData()); 
 
 
   return (
