@@ -6,12 +6,12 @@ async function userDetailsController(req,res){
        // const user = await userModel.findById(req.userId)
         // console.log("user",user)
 
-        // res.status(200).json({
-        //     data : user,
-        //     error : false,
-        //     success : true,
-        //     message : "User details"
-        // })
+        res.status(200).json({
+            data : user,
+            error : false,
+            success : true,
+            message : "User details"
+        })
         // if (!req.userId) {
         //     return res.status(400).json({
         //       message: 'User ID is missing or invalid',
