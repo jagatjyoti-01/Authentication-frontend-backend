@@ -12,7 +12,7 @@ const userDetailsController = require('../controller/user/userDetails');
 router.post("/signUp",userSignUpController);
 router.post("/signIn",userSignInController);
 
-router.get("/userDetails",authToken,userDetailsController)
+router.get("/user-details",authToken,userDetailsController)
 
 
 

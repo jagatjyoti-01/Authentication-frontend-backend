@@ -44,7 +44,8 @@ async function userSignInController(req, res) {
             console.log("token", token)
             const tokenoption = {
                 httpOnly: true,
-                secure: true
+                 secure: false, // ✅ only true if you're on HTTPS
+  sameSite: "Lax"
             }
         
         // res.status(200).json({

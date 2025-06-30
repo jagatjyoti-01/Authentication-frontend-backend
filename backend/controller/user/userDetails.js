@@ -3,7 +3,7 @@ const userModel=require("../../models/usermodel")
 async function userDetailsController(req,res){
     try{
         // console.log("userId iss-",req.userId)
-        //const user = await userModel.findById(req.userId)
+       // const user = await userModel.findById(req.userId)
         // console.log("user",user)
 
         // res.status(200).json({
